@@ -9,8 +9,15 @@ numpy = "*"
 matplotlib = "*"
 seaborn = "*"
 scikit-learn = "*"
+missingno = "*"
+pyjanitor = "*"
 
 [dev-packages]
+black = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
